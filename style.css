@@ -1,0 +1,40 @@
+*, html ,body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+:root {
+	--bg-first: rgb(233, 229, 229);
+	--bg-second: #dcdcdc;
+	--bg-third: rgb(2, 86, 161);
+	--bg-fourth: rgb(255, 255, 255);
+	--txt-first: black;
+	--txt-second: white;
+	--txt-third: rgb(241, 255, 132);
+	--icon-bg-first: rgb(0, 140, 255);
+	--icon-bg-second: rgb(207, 203, 203);
+}
+
+
+.jumbotron {
+        padding-top: 80px;
+	background-color: var(--bg-second);
+	/* align-items: center; */
+	/* width: 100%; */
+        text-align: center;
+}
+
+#project {
+	background-color: var(--bg-second);
+}
+
+section {
+	padding-top: 150px ;
+}
+
+.contact {
+	margin-left: 10px;
+	margin-right: 10px;
+}
