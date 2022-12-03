@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+body {
+	height: 1200px;
+}
+
 
 
 :root {
@@ -17,6 +21,9 @@
 	--icon-bg-second: rgb(207, 203, 203);
 }
 
+.kategori {
+	display: none;
+}
 
 .jumbotron {
         padding-top: 80px;
@@ -38,3 +45,4 @@ section {
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
