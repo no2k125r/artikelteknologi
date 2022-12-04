@@ -26,12 +26,19 @@ body {
 }
 
 .jumbotron {
-        padding-top: 80px;
+        padding-top: 100px;
 	background-color: var(--bg-second);
-	/* align-items: center; */
 	/* width: 100%; */
         text-align: center;
 }
+
+/* .carousel-control-prev {
+	margin-left: 350px;
+}
+
+.carousel-control-next {
+	margin-right: 350px;
+} */
 
 #project {
 	background-color: var(--bg-second);
