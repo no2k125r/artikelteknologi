@@ -5,17 +5,17 @@ body {
 	padding: 0;
 }
 
-body {
+/* body {
 	height: 1200px;
-}
+} */
 
 
 
 :root {
-	--bg-first: rgb(233, 229, 229);
-	--bg-second: #dcdcdc;
+	--bg-first: rgb(255, 255, 255);
+	--bg-second: rgb(213, 215, 215);
 	--bg-third: rgb(2, 86, 161);
-	--bg-fourth: rgb(255, 255, 255);
+	--bg-fourth: #f3f4f5;
 	--txt-first: black;
 	--txt-second: white;
 	--txt-third: rgb(241, 255, 132);
@@ -52,11 +52,11 @@ body {
 }
 
 #project {
-	background-color: var(--bg-second);
+	background-color: var(--bg-fourth);
 }
 
 section {
-	padding-top: 150px;
+	/* padding-top: 150px; */
 }
 
 .contact {
