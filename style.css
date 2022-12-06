@@ -30,34 +30,44 @@ body {
 }
 
 .jumbotron {
-	padding-top: 85px;
+	padding-top: 90px;
 	background-color: var(--bg-second);
-	/* width: 100%; */
 	text-align: center;
 }
 
+
 .caption {
-	font-size: 200px;
-	margin-bottom: 200px;
+	/* font-size: 50px;
+	padding: 0; */
+	/* margin-bottom: 100px; */
 	/* background-color: red; */
 }
 
+/* .carousel-indicators {
+	margin-right: 500px;
+} */
 
-.carousel-control-prev {
-	margin-left: 10px;
-}
+/* .carousel-inners {
+	margin-right: 200px;
+} */
 
-.carousel-control-next {
-	margin-right: 10px;
-}
+/* .carousel-control-prev {
+	margin-left: px;
+} */
+
+
+
+/* .carousel-control-next {
+	margin-right: 270px;
+} */
 
 #project {
 	background-color: var(--bg-fourth);
 }
 
-section {
-	/* padding-top: 150px; */
-}
+/* section {
+	padding-top: 150px;
+} */
 
 .contact {
 	margin-left: 10px;
