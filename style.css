@@ -5,10 +5,6 @@ body {
 	padding: 0;
 }
 
-/* body {
-	height: 1200px;
-} */
-
 
 
 :root {
@@ -23,51 +19,37 @@ body {
 	--icon-bg-second: rgb(207, 203, 203);
 }
 
-
-
 .kategori {
 	display: none;
 }
 
+
 .jumbotron {
-	padding-top: 90px;
-	background-color: var(--bg-second);
-	/* text-align: center; */
+	padding-top: 80px;
+	background: url(img/slider1.jpg);
+	background-size: cover;
+	color: var(--txt-first);
+	font-weight: bolder;
+	text-align: center;
+}
+
+.jumbotron .display-4 {
+	color: var(--bg-fourth);
+	font-weight: 400;
+}
+
+.carousel-control-prev {
+	margin-left: 280px;
 }
 
 
-.caption {
-	/* font-size: 50px;
-	padding: 0; */
-	/* margin-bottom: 100px; */
-	/* background-color: red; */
+.carousel-control-next {
+	margin-right: 280px;
 }
-
-/* .carousel-indicators {
-	margin-right: 500px;
-} */
-
-/* .carousel-inners {
-	margin-right: 200px;
-} */
-
-/* .carousel-control-prev {
-	margin-left: px;
-} */
-
-
-
-/* .carousel-control-next {
-	margin-right: 270px;
-} */
 
 #project {
 	background-color: var(--bg-fourth);
 }
-
-/* section {
-	padding-top: 150px;
-} */
 
 .contact {
 	margin-left: 10px;
