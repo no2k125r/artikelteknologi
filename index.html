@@ -44,14 +44,29 @@
                                                                 href="#beranda">Beranda</a>
                                                 </li>
 
+                                                <li class="nav-item mt-2 fs-4 me-3 d-none d-sm-block">
+                                                        <a class="nav-link active fs-5" aria-current="page"
+                                                                href="#project">Software</a>
+                                                </li>
+
+                                                <li class="nav-item mt-2 fs-4 me-3 d-none d-sm-block">
+                                                        <a class="nav-link active fs-5" aria-current="page"
+                                                                href="#beranda">Hardware</a>
+                                                </li>
+
+                                                <li class="nav-item mt-2 fs-4 me-3 d-none d-sm-block">
+                                                        <a class="nav-link active fs-5" aria-current="page"
+                                                                href="#beranda">Network</a>
+                                                </li>
+
                                                 <!-- Dropdown Kategori -->
-                                                <li class="nav-item dropdown mt-2 fs-5">
+                                                <li class="nav-item dropdown mt-2 fs-5 bg-danger d-block d-sm-none">
                                                         <a class="nav-link dropdown-toggle text-light" href="#"
                                                                 role="button" data-bs-toggle="dropdown"
                                                                 data-bs-auto-close="inside"
                                                                 aria-expanded="false">Kategori</a>
 
-                                                        <ul class="dropdown-menu dropdown-menu-dark bg-gradient">
+                                                        <ul class="dropdown-menu bg-light bg-gradient">
                                                                 <li><a class="dropdown-item"
                                                                                 href="#project">Software</a>
                                                                 </li>
@@ -83,16 +98,16 @@
         <!-- Start Jumbotron -->
         <section class="jumbotron">
                 <div class="container">
-                        <h1 class="display-4 mb-3">DIVE YOURSELF INTO KNOWLEDGE</h1>
-                        <!-- <hr class="my-sm-5"> -->
-                        <a class="btn btn-light btn-sm mb-3 text-dark border-danger fs-5" href="#project"
-                                role="button">Scroll</a>
+                        <h1 class="display-6 text-light mt-3 mb-3 d-none d-sm-block"> <span class="dive"> DIVE YOURSELF
+                                        <br> INTO KNOWLEDGE</span></h1>
+                        <h1 class="display-6 text-light text-capitalize mb-3 d-block d-sm-none ">dive yourself into
+                                knowledge</h1>
                 </div>
 
 
                 <!-- Start Carousel -->
                 <div id="carouselIntro" class="carousel slide text-center" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
+                        <div class="carousel-indicators ">
                                 <button type="button" data-bs-target="#carouselIntro" data-bs-slide-to="0"
                                         class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselIntro" data-bs-slide-to="1"
@@ -106,50 +121,97 @@
                         <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="2000">
                                         <img src="img/software.jpg"
-                                                class="w-50 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
+                                                class="d-none d-sm-block mx-auto w-50 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
                                                 alt="software">
+                                        <img src="img/software.jpg"
+                                                class="d-block d-sm-none mx-auto w-100 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4 "
+                                                alt="software">
+
                                         <div class="carousel-caption">
-                                                <a href="#project">
-                                                        <button type="button"
-                                                                class="btn btn-dark btn-sm">Software</button>
+                                                <a href="#project" class="d-none d-sm-block text-decoration-none">
+                                                        <div class="d-grid gap-2 col-6 mx-auto">
+                                                                <button type="button" class="btn btn-dark">
+                                                                        <h1 class="display-7">Software</h1>
+                                                                </button>
+                                                        </div>
+                                                </a>
+                                                <a href="#project"
+                                                        class="d-block d-sm-none text-decoration-none display-6 text-white">
+                                                        Software
                                                 </a>
                                         </div>
-
                                 </div>
-                                <div class="carousel-item slide-intro" data-bs-interval="2000">
+
+
+                                <div class="carousel-item" data-bs-interval="2000">
                                         <img src="img/hardware.jpg"
-                                                class="w-50 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
+                                                class="d-none d-sm-block mx-auto w-50 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
+                                                alt="hardware">
+                                        <img src="img/hardware.jpg"
+                                                class="d-block d-sm-none mx-auto w-100 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
                                                 alt="hardware">
                                         <div class="carousel-caption ">
-                                                <a href="#project">
-                                                        <button type="button"
-                                                                class="btn btn-dark btn-sm">Network</button>
+                                                <a href="#project" class="d-none d-sm-block text-decoration-none">
+                                                        <div class="d-grid gap-2 col-6 mx-auto">
+                                                                <button type="button" class="btn btn-dark">
+                                                                        <h1 class="display-7">Hardware</h1>
+                                                                </button>
+                                                        </div>
+                                                </a>
+                                                <a href="#project"
+                                                        class="d-block d-sm-none text-decoration-none display-6 text-white">
+                                                        Hardware
                                                 </a>
                                         </div>
                                 </div>
-                                <div class="carousel-item slide-intro" data-bs-interval="2000">
+
+                                <div class="carousel-item" data-bs-interval="2000">
                                         <img src="img/network.jpg"
-                                                class="w-50 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
-                                                alt="network">
-                                        <div class="carousel-caption">
-                                                <a href="#project">
-                                                        <button type="button"
-                                                                class="btn btn-dark btn-sm">Network</button>
+                                                class="d-none d-sm-block mx-auto w-50 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
+                                                alt="hardware">
+                                        <img src="img/network.jpg"
+                                                class="d-block d-sm-none mx-auto w-100 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
+                                                alt="hardware">
+                                        <div class="carousel-caption ">
+                                                <a href="#project" class="d-none d-sm-block text-decoration-none">
+                                                        <div class="d-grid gap-2 col-6 mx-auto">
+                                                                <button type="button" class="btn btn-dark">
+                                                                        <h1 class="display-7">Network</h1>
+                                                                </button>
+                                                        </div>
+                                                </a>
+                                                <a href="#project"
+                                                        class="d-block d-sm-none text-decoration-none display-6 text-white">
+                                                        Network
                                                 </a>
                                         </div>
                                 </div>
-                                <div class="carousel-item slide-intro" data-bs-interval="2000">
+
+                                <div class="carousel-item" data-bs-interval="2000">
                                         <img src="img/slider1.jpg"
-                                                class="w-50 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
-                                                alt="slider1">
-                                        <div class="carousel-caption">
-                                                <a href="#project">
-                                                        <button type="button"
-                                                                class="btn btn-dark btn-sm">Software</button>
+                                                class="d-none d-sm-block mx-auto w-50 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
+                                                alt="software">
+                                        <img src="img/slider1.jpg"
+                                                class="d-block d-sm-none mx-auto w-100 shadow p-1 mb-2 bg-body bg-opacity-75 rounded-4"
+                                                alt="software">
+                                        <div class="carousel-caption ">
+                                                <a href="#project" class="d-none d-sm-block text-decoration-none">
+                                                        <div class="d-grid gap-2 col-6 mx-auto">
+                                                                <button type="button" class="btn btn-dark">
+                                                                        <h1 class="display-7">Software</h1>
+                                                                </button>
+                                                        </div>
+                                                </a>
+                                                <a href="#project"
+                                                        class="d-block d-sm-none text-decoration-none display-6 text-white">
+                                                        Software
                                                 </a>
                                         </div>
                                 </div>
+
                         </div>
+
+
                         <button class="carousel-control-prev carousel-dark d-none d-lg-block" type="button"
                                 data-bs-target="#carouselIntro" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

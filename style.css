@@ -38,6 +38,10 @@ body {
 	font-weight: 400;
 }
 
+.dive {
+	font-size: 70px;
+}
+
 .carousel-control-prev {
 	margin-left: 280px;
 }
