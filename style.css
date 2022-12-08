@@ -19,9 +19,22 @@ body {
 	--icon-bg-second: rgb(207, 203, 203);
 }
 
-.kategori {
-	display: none;
+/* @media screen and (min-width: 994px) {
+	.dropdown-item {
+		width: 450px;
+	}
+} */
+
+@media screen and (max-width: 994px) {
+	.dropdown-item {
+		width: 450px;
+	}
 }
+
+
+/* .kategori {
+	display: none;
+} */
 
 
 .jumbotron {
@@ -54,7 +67,12 @@ body {
 	background-color: var(--bg-fourth);
 }
 
-.contact {
-	margin-left: 10px;
-	margin-right: 10px;
+
+
+.row-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: ease-in-out 0.2s;
+	border: 3px solid var(--bg-third);
+	border-radius: 10px;
 }
