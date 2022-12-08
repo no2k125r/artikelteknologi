@@ -3,6 +3,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+
 }
 
 
@@ -17,6 +18,7 @@ body {
 	--txt-third: rgb(241, 255, 132);
 	--icon-bg-first: rgb(0, 140, 255);
 	--icon-bg-second: rgb(207, 203, 203);
+
 }
 
 /* @media screen and (min-width: 994px) {
@@ -42,8 +44,22 @@ body {
 	background: url(img/slider1.jpg);
 	background-size: cover;
 	color: var(--txt-first);
-	font-weight: bolder;
+	/* font-weight: bolder; */
 	text-align: center;
+
+}
+
+@media screen and (min-width: 996px) {
+	.display-6 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+	}
+
+	.display-6:hover {
+		transform: scale(1.1);
+		transition: ease-in-out .5s;
+
+	}
 }
 
 .jumbotron .display-4 {
@@ -67,7 +83,10 @@ body {
 	background-color: var(--bg-fourth);
 }
 
-
+.col h2 {
+	font-size: 50px;
+	margin-top: 20px;
+}
 
 .row-container:hover {
 	cursor: pointer;
@@ -76,3 +95,38 @@ body {
 	border: 3px solid var(--bg-third);
 	border-radius: 10px;
 }
+
+.row h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 959px) {
+
+	
+	.card-body .btn-outline-primary {
+		/* margin-left: 50px;		 */
+		/* color: tomato; */
+	}
+
+	.row-container:hover {
+		cursor: pointer;
+		transform: scale(1.1);
+		transition: ease-in-out 0.5s;
+		border: 3px solid var(--bg-third);
+		border-radius: 10px;
+	}
+
+	.row {
+		/* justify-content: center; */
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+}
+
+
+
+
+
+/* @media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+} */
