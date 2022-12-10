@@ -1,0 +1,80 @@
+/* Extra Small for potrait phone  */
+@media screen and (max-width: 576px) {
+        .carousel-item img {
+                height: 250px;
+                width: 100%;
+                margin-bottom: 0;
+                border: none;
+                border-radius: 0;
+        }
+
+        .category-slide {
+                color: var(--bg-second);
+                /* background-color: tomato; */
+                font-size: 26px;
+        }
+
+        .dive {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: lighter;
+                color: var(--txt-second);
+                font-size: 30px;
+        }
+
+        .carousel-control-prev {
+                /* background-color: tomato; */
+                margin-left: 0;
+                margin-top: 100px;
+                height: 12%;
+                width: 5%;
+        }
+
+        .carousel-control-next {
+                /* background-color: aqua; */
+                margin-right: 0;
+                margin-top: 100px;
+                height: 12%;
+                width: 5%;
+        }
+
+        .col h2 {
+                /* background-color: tomato; */
+                font-size: 20px;
+        }
+
+        .row h2 {
+                /* background-color: tomato; */
+                margin: 0 auto;
+                height: 70%;
+                margin-top: 7px;
+                margin-bottom: 15px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+                text-align: center;
+                border-style: outset;
+                border-width: 4px;
+                border-color: var(--bg-fourth);
+                box-shadow: 0.5px 1px;
+        }
+
+        article {
+                /* background-color: tomato; */
+                display: flex;
+                /* float: none; */
+                /* margin: 0 auto; */
+                margin-top: 3px;
+                width: auto;
+        }
+
+
+
+        article .card-title {
+                background-color: tomato;
+                font-size: 16px;
+                margin-top: -1px;
+        }
+
+        aside {
+                display: none;
+        }
+}

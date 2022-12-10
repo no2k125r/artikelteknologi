@@ -1,0 +1,79 @@
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+        .carousel-item img {
+                height: 200px;
+                width: 35%;
+        }
+
+        .category-slide {
+                color: var(--bg-second);
+                /* background-color: tomato; */
+                font-size: 26px;
+        }
+
+
+        .dive {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: lighter;
+                color: var(--txt-second);
+                font-size: 30px;
+
+        }
+
+        .dive:hover {
+                transform: scale(1.1);
+                transition: ease-in-out .5s;
+
+        }
+
+        .carousel-control-prev {
+                /* background-color: tomato; */
+                margin-left: 29%;
+                margin-top: 100px;
+                height: 12%;
+                width: 4%;
+        }
+
+        .carousel-control-next {
+                /* background-color: aqua; */
+                margin-right: 29%;
+                margin-top: 100px;
+                height: 12%;
+                width: 4%;
+        }
+
+        .row-container:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: ease-in-out 0.5s;
+                border: 3px solid var(--bg-third);
+                border-radius: 10px;
+        }
+
+        .row {
+                /* justify-content: center; */
+                margin-right: 50px;
+                margin-left: 50px;
+        }
+
+        .col h2 {
+                /* background-color: tomato; */
+                font-size: 16px;
+        }
+
+        .row h2 {
+                /* background-color: tomato; */
+                margin-right: 20%;
+                margin-left: 20%;
+                height: 70%;
+                margin-top: 7px;
+                margin-bottom: 8px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+                text-align: center;
+                border-style: outset;
+                border-width: 4px;
+                border-color: var(--bg-fourth);
+                box-shadow: 0.5px 1px;
+        }
+}
