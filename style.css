@@ -105,7 +105,7 @@ body {
 }
 
 article {
-	width: 75%;
+	width: 70%;
 	float: left;
 	background-color: var(--bg-first);
 	padding: 5px;
@@ -116,12 +116,30 @@ article {
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+article .card {
+	/* background-color: orange; */
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border: 3px solid var(--bg-second);
+	border-radius: 10px;
+}
+
+article img {
+	height: 120px;
+	margin: 5px;
+	margin-top: 16px;
+	border-radius: 5px;
+	column-width: 10px;
+}
+
 aside .card {
-	float: left;
+	width: 28%;
+	float: right;
 	border: 3px solid var(--bg-second);
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 	border-style: outset;
 	margin: 5px;
+	/* margin-bottom: 100px; */
 }
 
 .row-container:hover {

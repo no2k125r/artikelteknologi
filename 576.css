@@ -59,19 +59,22 @@
 
         article {
                 /* background-color: tomato; */
-                display: flex;
-                /* float: none; */
-                /* margin: 0 auto; */
+                border: none;
+                /* border-radius: none; */
+                border-style: none;
                 margin-top: 3px;
-                width: auto;
+                width: fit-content;
         }
 
-
-
         article .card-title {
-                background-color: tomato;
+                /* background-color: tomato; */
                 font-size: 16px;
                 margin-top: -1px;
+        }
+
+        article .card-body {
+                background-color: orange;
+                margin: 0 auto;
         }
 
         aside {
