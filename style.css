@@ -18,6 +18,17 @@ body {
 
 }
 
+nav .navbar-brand:hover {
+	transform: scale(1.5);
+	transition: 0.5s;
+	font-weight: lighter;
+}
+
+nav .nav-item:hover {
+	transform: scale(1.5);
+	transition: 0.5s;
+	font-weight: lighter;
+}
 
 .jumbotron {
 	padding-top: 80px;
@@ -76,12 +87,6 @@ body {
 	font-size: 70px;
 }
 
-
-.dive:hover {
-	transform: scale(1.1);
-	transition: .5s;
-
-}
 
 .carousel-control-prev {
 	/* background-color: tomato; */
