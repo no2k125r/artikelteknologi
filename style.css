@@ -21,7 +21,7 @@ body {
 
 .jumbotron {
 	padding-top: 80px;
-	background: url(img/slider1.jpg);
+	background: url(assets/img/slider1.jpg);
 	background-size: cover;
 	border: 1px solid var(--bg-second);
 	border-radius: 10px;
