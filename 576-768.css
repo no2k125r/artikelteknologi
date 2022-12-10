@@ -1,3 +1,11 @@
+*,
+html,
+body {
+        margin: 0;
+        padding: 0;
+}
+
+
 /* Small devices (landscape phones, 576px up to 768) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
         .carousel-item img {
@@ -69,5 +77,41 @@
                 border-width: 4px;
                 border-color: var(--bg-fourth);
                 box-shadow: 0.5px 1px;
+        }
+
+        article {
+                border: none;
+                margin-left: -8px;
+                margin-top: 3px;
+                width: 103%;
+        }
+
+
+        article .card {
+                width: 100%;
+                float: left;
+                margin: 1px;
+                margin-left: -1px;
+                border: 1.7px solid var(--bg-second);
+        }
+
+        article img {
+                height: 95px;
+                border: 2px solid;
+                border-color: var(--bg-second);
+                margin-top: 5px;
+                margin-left: -55px;
+        }
+
+        article .card-title {
+                /* background-color: tomato; */
+                font-size: 14px;
+                margin-top: 5px;
+                margin-left: -75px;
+                margin-right: -50px;
+        }
+
+        aside {
+                display: none;
         }
 }

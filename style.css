@@ -76,6 +76,7 @@ body {
 	font-size: 70px;
 }
 
+
 .dive:hover {
 	transform: scale(1.1);
 	transition: .5s;
@@ -116,18 +117,24 @@ article {
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+
 article .card {
 	/* background-color: orange; */
-	margin: 0 auto;
-	margin-bottom: 10px;
+	margin: 2px 10px 10px 10px;
 	border: 3px solid var(--bg-second);
 	border-radius: 10px;
+	height: 50%;
+}
+
+article .card-title {
+	margin-top: 5px;
+	margin-left: -200px;
 }
 
 article img {
 	height: 120px;
 	margin: 5px;
-	margin-top: 16px;
+	margin-top: 5px;
 	border-radius: 5px;
 	column-width: 10px;
 }

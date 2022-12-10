@@ -1,3 +1,10 @@
+*,
+html,
+body {
+        margin: 0;
+        padding: 0;
+}
+
 /* Extra Small for potrait phone  */
 @media screen and (max-width: 576px) {
         .carousel-item img {
@@ -58,24 +65,37 @@
         }
 
         article {
-                /* background-color: tomato; */
                 border: none;
-                /* border-radius: none; */
-                border-style: none;
+                margin-left: -8px;
                 margin-top: 3px;
-                width: fit-content;
+                width: 103%;
+        }
+
+
+        article .card {
+                width: 100%;
+                float: left;
+                margin: 1px;
+                margin-left: -1px;
+                border: 1.7px solid var(--bg-second);
+        }
+
+        article img {
+                height: 95px;
+                border: 2px solid;
+                border-color: var(--bg-second);
+                margin-top: 5px;
+                margin-left: 7px;
         }
 
         article .card-title {
                 /* background-color: tomato; */
                 font-size: 16px;
-                margin-top: -1px;
+                margin-top: 5px;
+                margin-left: -35px;
+                margin-right: 7px;
         }
 
-        article .card-body {
-                background-color: orange;
-                margin: 0 auto;
-        }
 
         aside {
                 display: none;
