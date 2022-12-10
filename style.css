@@ -10,7 +10,7 @@ body {
 	--bg-first: rgb(255, 255, 255);
 	--bg-second: rgb(213, 215, 215);
 	--bg-third: rgb(2, 86, 161);
-	--bg-fourth: ;
+	--bg-fourth: rgb(0, 140, 255);
 	--txt-first: black;
 	--txt-second: white;
 	--txt-third: rgb(241, 255, 132);
@@ -18,8 +18,6 @@ body {
 	--icon-bg-second: rgb(207, 203, 203);
 
 }
-
-
 
 .jumbotron {
 	padding-top: 80px;
@@ -84,21 +82,25 @@ body {
 }
 
 .carousel-control-prev {
-	margin-left: 280px;
+	/* background-color: tomato; */
+	margin-left: 27%;
+	margin-top: 200px;
+	height: 15%;
+	width: 3%;
 }
 
 .carousel-control-next {
-	margin-right: 280px;
+	/* background-color: aqua; */
+	margin-right: 27%;
+	margin-top: 200px;
+	height: 15%;
+	width: 3%;
 }
 
 #project {
-	background-color: var(--bg-fourth);
+	background-color: var(--bg-second);
 }
 
-.col h2 {
-	font-size: 50px;
-	margin-top: 20px;
-}
 
 .row-container:hover {
 	cursor: pointer;
@@ -108,8 +110,28 @@ body {
 	border-radius: 10px;
 }
 
+.col h2 {
+	/* background-color: tomato; */
+	font-size: 50px;
+	margin-top: 20px;
+	/* margin-bottom: 200px; */
+}
+
 .row h2 {
+	/* background-color: tomato; */
+	/* width: 50%; */
+	margin-left: 30%;
+	margin-right: 30%;
+	height: 70%;
+	margin-bottom: 20px;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-align: center;
+	border-style: outset;
+	border-width: 7px;
+	border-color: var(--bg-third);
+	box-shadow: 2px 3px;
+
 }
 
 /* Extra Small for potrait phone  */
@@ -129,19 +151,53 @@ body {
 		font-size: 26px;
 	}
 
-
-
 	.dive {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: lighter;
 		color: var(--txt-second);
 		font-size: 35px;
 	}
+
+	.carousel-control-prev {
+		background-color: tomato;
+		margin-left: 0;
+		margin-top: 100px;
+		height: 12%;
+		width: 5%;
+	}
+
+	.carousel-control-next {
+		background-color: aqua;
+		margin-right: 0;
+		margin-top: 100px;
+		height: 12%;
+		width: 5%;
+	}
+
+	.col h2 {
+		/* background-color: tomato; */
+		font-size: 20px;
+	}
+
+	.row h2 {
+		/* background-color: tomato; */
+		margin: 0 auto;
+		height: 70%;
+		margin-top: 7px;
+		margin-bottom: 15px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		border-style: outset;
+		border-width: 4px;
+		border-color: var(--bg-fourth);
+		box-shadow: 0.5px 1px;
+	}
 }
 
 
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px up to 768) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
 	.carousel-item img {
 		height: 250px;
@@ -164,6 +220,22 @@ body {
 
 	}
 
+	.carousel-control-prev {
+		background-color: tomato;
+		margin-left: 30px;
+		margin-top: 100px;
+		height: 12%;
+		width: 5%;
+	}
+
+	.carousel-control-next {
+		background-color: aqua;
+		margin-right: 30px;
+		margin-top: 100px;
+		height: 12%;
+		width: 5%;
+	}
+
 	.row-container:hover {
 		cursor: pointer;
 		transform: scale(1.1);
@@ -177,14 +249,36 @@ body {
 		margin-right: 50px;
 		margin-left: 50px;
 	}
+
+	.col h2 {
+		/* background-color: tomato; */
+		font-size: 20px;
+	}
+
+	.row h2 {
+		/* background-color: tomato; */
+		margin: 0 auto;
+		height: 70%;
+		margin-top: 7px;
+		margin-bottom: 12px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		border-style: outset;
+		border-width: 4px;
+		border-color: var(--bg-fourth);
+		box-shadow: 0.5px 1px;
+	}
 }
+
+
 
 /* Medium devices (tablets, 768px and up) */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	.carousel-item img {
-		height: 250px;
-		width: 60%;
+		height: 200px;
+		width: 35%;
 	}
 
 	.kategori-slide {
@@ -208,6 +302,22 @@ body {
 
 	}
 
+	.carousel-control-prev {
+		background-color: tomato;
+		margin-left: 29%;
+		margin-top: 100px;
+		height: 12%;
+		width: 4%;
+	}
+
+	.carousel-control-next {
+		background-color: aqua;
+		margin-right: 29%;
+		margin-top: 100px;
+		height: 12%;
+		width: 4%;
+	}
+
 	.row-container:hover {
 		cursor: pointer;
 		transform: scale(1.1);
@@ -220,6 +330,27 @@ body {
 		/* justify-content: center; */
 		margin-right: 50px;
 		margin-left: 50px;
+	}
+
+	.col h2 {
+		/* background-color: tomato; */
+		font-size: 16px;
+	}
+
+	.row h2 {
+		/* background-color: tomato; */
+		margin-right: 20%;
+		margin-left: 20%;
+		height: 70%;
+		margin-top: 7px;
+		margin-bottom: 8px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		text-align: center;
+		border-style: outset;
+		border-width: 4px;
+		border-color: var(--bg-fourth);
+		box-shadow: 0.5px 1px;
 	}
 }
 
