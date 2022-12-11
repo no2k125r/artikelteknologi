@@ -1,14 +1,21 @@
-*,
-html,
-body {
-        margin: 0;
-        padding: 0;
-}
-
 /* Extra Small for potrait phone  */
 @media screen and (max-width: 576px) {
+
+        nav .navbar-brand:hover {
+                transform: none;
+                transition: none;
+                font-weight: lighter;
+        }
+        
+        nav .nav-item:hover {
+                transform: none;
+                transition: none;
+                font-weight: lighter;
+        }
+        
+
         .carousel-item img {
-                height: 250px;
+                height: 180px;
                 width: 100%;
                 margin-bottom: 0;
                 border: none;
@@ -25,7 +32,7 @@ body {
                 font-family: 'Open Sans', sans-serif;
                 font-weight: lighter;
                 color: var(--txt-second);
-                font-size: 30px;
+                font-size: 20px;
         }
 
         .carousel-control-prev {
@@ -81,18 +88,19 @@ body {
         }
 
         article img {
-                height: 95px;
+                height: 75px;
                 border: 2px solid;
                 border-color: var(--bg-second);
-                margin-top: 5px;
-                margin-left: 7px;
+                margin-top: 3px;
+                margin-left: 5px;
+                width: 75%;
         }
 
         article .card-title {
                 /* background-color: tomato; */
-                font-size: 16px;
+                font-size: 14px;
                 margin-top: 5px;
-                margin-left: -35px;
+                margin-left: -45px;
                 margin-right: 7px;
         }
 

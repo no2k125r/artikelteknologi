@@ -1,12 +1,20 @@
-*,
-html,
-body {
-        margin: 0;
-        padding: 0;
-}
-
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+        nav .navbar-brand:hover {
+                transform: none;
+                transition: none;
+                font-weight: lighter;
+        }
+        
+        nav .nav-item:hover {
+                transform: none;
+                transition: none;
+                font-weight: lighter;
+        }
+        
+
         .carousel-item img {
                 height: 200px;
                 width: 35%;
