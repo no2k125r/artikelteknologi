@@ -66,19 +66,25 @@
                                                         <a class="nav-link dropdown-toggle text-light" href="#"
                                                                 role="button" data-bs-toggle="dropdown"
                                                                 data-bs-auto-close="inside"
-                                                                aria-expanded="false">Kategori</a>
+                                                                aria-expanded="false">Kategori
+                                                        </a>
 
                                                         <ul class="dropdown-menu bg-light bg-gradient">
-                                                                <li><a class="dropdown-item"
+                                                                <li>
+                                                                        <a class="dropdown-item bg-danger"
                                                                                 href="#project">Software</a>
                                                                 </li>
+
                                                                 <li>
                                                                         <hr class="dropdown-divider">
                                                                 </li>
+
                                                                 <li><a class="dropdown-item" href="#">Hardware</a></li>
+
                                                                 <li>
                                                                         <hr class="dropdown-divider">
                                                                 </li>
+
                                                                 <li><a class="dropdown-item" href="#">Network</a></li>
                                                         </ul>
                                                 </li>
@@ -228,21 +234,124 @@
                         <!-- END ARTICLE -->
 
                         <!-- START ASIDE BAR -->
+
+
+
+
+
+
+
+
                         <aside>
                                 <div class="card">
                                         <div class="card-header text-center">
                                                 Kategori
+
+                                        </div>
+                                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                                <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#panelsStayOpen-collapseOne"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="panelsStayOpen-collapseOne">
+                                                                        Software
+                                                                </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseOne"
+                                                                class="accordion-collapse collapse show"
+                                                                aria-labelledby="panelsStayOpen-headingOne">
+                                                                <div class="accordion-body">
+
+                                                                        <div class="accordion-item">
+                                                                                <h2 class="accordion-header bg-danger"
+                                                                                        id="panelsStayOpen-headingTwo">
+                                                                                        <button class="accordion-button collapsed"
+                                                                                                type="button"
+                                                                                                data-bs-toggle="collapse"
+                                                                                                data-bs-target="#panelsStayOpen-collapseTwo"
+                                                                                                aria-expanded="false"
+                                                                                                aria-controls="panelsStayOpen-collapseTwo">
+                                                                                                Office
+                                                                                        </button>
+                                                                                </h2>
+                                                                                <div id="panelsStayOpen-collapseTwo"
+                                                                                        class="accordion-collapse collapse"
+                                                                                        aria-labelledby="panelsStayOpen-headingTwo">
+                                                                                        <div class="accordion-body">
+                                                                                                Cara Save
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+
+
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                                <button class="accordion-button collapsed" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#panelsStayOpen-collapseTwo"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="panelsStayOpen-collapseTwo">
+                                                                        Hardware
+                                                                </button>
+
+
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseTwo"
+                                                                class="accordion-collapse collapse"
+                                                                aria-labelledby="panelsStayOpen-headingTwo">
+                                                                <div class="accordion-body">
+                                                                        <strong>This is the second item's accordion
+                                                                                body.</strong>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                                                <button class="accordion-button collapsed" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#panelsStayOpen-collapseThree"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="panelsStayOpen-collapseThree">
+                                                                        Network
+                                                                </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseThree"
+                                                                class="accordion-collapse collapse"
+                                                                aria-labelledby="panelsStayOpen-headingThree">
+                                                                <div class="accordion-body">
+                                                                        <strong>This is the third item's accordion
+                                                                                body.</strong>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                </div>
+
+
+                                <!-- <div class="card">
+                                        <div class="card-header text-center">
+                                                Kategori
+
                                         </div>
                                         <ul class="list-group">
-                                                <li class="list-group-item">Software</li>
+                                                <li class="list-group-item"><a class="dropdown-item bg-warning"
+                                                                href="#project">
+                                                                Software</a>
+                                                </li>
                                                 <li class="list-group-item">Hardware</li>
                                                 <li class="list-group-item">Network</li>
                                         </ul>
-                                </div>
+
+                                </div> -->
                         </aside>
                         <!-- END ASIDE BAR -->
 
-                </div>
 
 
 
@@ -252,14 +361,14 @@
 
 
 
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                         <path fill="#ffffff" fill-opacity="1"
                                 d="M0,256L0,64L36.9,64L36.9,32L73.8,32L73.8,128L110.8,128L110.8,320L147.7,320L147.7,128L184.6,128L184.6,64L221.5,64L221.5,160L258.5,160L258.5,64L295.4,64L295.4,256L332.3,256L332.3,32L369.2,32L369.2,128L406.2,128L406.2,224L443.1,224L443.1,96L480,96L480,224L516.9,224L516.9,160L553.8,160L553.8,224L590.8,224L590.8,160L627.7,160L627.7,96L664.6,96L664.6,320L701.5,320L701.5,320L738.5,320L738.5,256L775.4,256L775.4,192L812.3,192L812.3,320L849.2,320L849.2,160L886.2,160L886.2,64L923.1,64L923.1,256L960,256L960,128L996.9,128L996.9,256L1033.8,256L1033.8,256L1070.8,256L1070.8,96L1107.7,96L1107.7,96L1144.6,96L1144.6,320L1181.5,320L1181.5,96L1218.5,96L1218.5,96L1255.4,96L1255.4,224L1292.3,224L1292.3,224L1329.2,224L1329.2,320L1366.2,320L1366.2,0L1403.1,0L1403.1,224L1440,224L1440,320L1403.1,320L1403.1,320L1366.2,320L1366.2,320L1329.2,320L1329.2,320L1292.3,320L1292.3,320L1255.4,320L1255.4,320L1218.5,320L1218.5,320L1181.5,320L1181.5,320L1144.6,320L1144.6,320L1107.7,320L1107.7,320L1070.8,320L1070.8,320L1033.8,320L1033.8,320L996.9,320L996.9,320L960,320L960,320L923.1,320L923.1,320L886.2,320L886.2,320L849.2,320L849.2,320L812.3,320L812.3,320L775.4,320L775.4,320L738.5,320L738.5,320L701.5,320L701.5,320L664.6,320L664.6,320L627.7,320L627.7,320L590.8,320L590.8,320L553.8,320L553.8,320L516.9,320L516.9,320L480,320L480,320L443.1,320L443.1,320L406.2,320L406.2,320L369.2,320L369.2,320L332.3,320L332.3,320L295.4,320L295.4,320L258.5,320L258.5,320L221.5,320L221.5,320L184.6,320L184.6,320L147.7,320L147.7,320L110.8,320L110.8,320L73.8,320L73.8,320L36.9,320L36.9,320L0,320L0,320Z">
                         </path>
                 </svg> -->
         </section>
         <!-- End Kategori -->
-
 
 
         <!-- Footer -->
