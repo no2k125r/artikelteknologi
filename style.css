@@ -160,6 +160,22 @@ aside .card {
 
 }
 
+aside ul {
+	/* background-color: tomato; */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+aside li {
+	/* background-color: orange; */
+	font-size: 16px;
+	margin: 7px;
+	padding-left: 5px;
+	border: 1px solid;
+	border-radius: 12px;
+}
+
 .row-container:hover {
 	cursor: pointer;
 	transform: scale(1.1);
