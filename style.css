@@ -30,6 +30,10 @@ nav .nav-item:hover {
 	font-weight: lighter;
 }
 
+nav .nav-category {
+	display: none;
+}
+
 .jumbotron {
 	padding-top: 80px;
 	background: url(assets/img/slider1.jpg);

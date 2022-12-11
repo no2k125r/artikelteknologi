@@ -12,6 +12,10 @@
                 transition: none;
                 font-weight: lighter;
         }
+        
+        nav .nav-category {
+                display: block;
+        }
 
 
         .carousel-item img {

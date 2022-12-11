@@ -7,11 +7,15 @@
                 transition: none;
                 font-weight: lighter;
         }
-        
+
         nav .nav-item:hover {
                 transform: none;
                 transition: none;
                 font-weight: lighter;
+        }
+
+        nav .nav-category {
+                display: block;
         }
         
 
