@@ -176,6 +176,13 @@ aside li {
 	border-radius: 12px;
 }
 
+aside li:hover {
+	cursor: pointer;
+	background-color: var(--bg-fourth);
+	color: var(--txt-second);
+	border-color: var(--bg-third);
+}
+
 .row-container:hover {
 	cursor: pointer;
 	transform: scale(1.1);
