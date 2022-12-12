@@ -7,9 +7,10 @@ body {
 
 :root {
 	--bg-first: rgb(255, 255, 255);
-	--bg-second: rgb(213, 215, 215);
-	--bg-third: rgb(0, 153, 255);
+	--bg-second: rgb(230, 230, 230);
+	--bg-third: rgb(0, 115, 153);
 	--bg-fourth: rgb(0, 191, 255);
+	--bg-fifth: rgb(46, 92, 184);
 	--txt-first: black;
 	--txt-second: white;
 	--txt-third: rgb(241, 255, 132);
@@ -157,18 +158,15 @@ aside .card {
 	border-style: outset;
 	margin: 5px;
 	font-size: 20px;
-
 }
 
-aside ul {
-	/* background-color: tomato; */
+/* aside ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
 aside li {
-	/* background-color: orange; */
 	font-size: 16px;
 	margin: 7px;
 	padding-left: 5px;
@@ -182,6 +180,69 @@ aside li:hover {
 	color: var(--txt-second);
 	border-color: var(--bg-second);
 	border: none;
+} */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	background-color: var(--bg-second);
+	color: var(--txt-first);
+	cursor: pointer;
+	padding: 12px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	transition: 0.4s;
+	border: 2px solid var(--bg-third);
+	border-radius: 13px;
+}
+
+.active-accordion,
+.accordion:hover {
+	/* background-color: #ccc; */
+	background-color: var(--bg-third);
+	color: var(--txt-second);
+
+}
+
+.accordion-sub {
+	background-color: var(--bg-second);
+	color: var(--txt-first);
+	cursor: pointer;
+	padding: 12px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	transition: 0.4s;
+	border: 1px solid var(--bg-second);
+	border-radius: 13px;
+}
+
+
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+
+
+
+aside li {
+	list-style-type: none;
+	font-size: 18px;
+	border: none;
+}
+
+aside li a {
+	text-decoration: none;
+	background-color: orange;
+	font-size: 15px;
 }
 
 .row-container:hover {
