@@ -161,8 +161,8 @@ aside .card {
 }
 
 aside .card-body {
-width: 100%;
-margin-top: 0;
+	width: 100%;
+	margin-top: 0;
 }
 
 
@@ -172,84 +172,25 @@ aside ul {
 	padding: 0;
 }
 
-aside li {
+aside li li {
 	font-size: 16px;
 	margin: 7px;
 	padding-left: 5px;
 	/* border: 1px solid; */
+	opacity: 0.9;
 	/* border-radius: 12px; */
+	/* background-color: tomato; */
 }
 
 aside li li:hover {
 	cursor: pointer;
-	background-color: var(--bg-fourth);
+	background-color: var(--bg-fifth);
 	color: var(--txt-second);
 	border-color: var(--bg-second);
-	border: none;
+	border: 3px solid var(--bg-second);
+	opacity: 1;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-/* .accordion {
-	background-color: var(--bg-second);
-	color: var(--txt-first);
-	cursor: pointer;
-	padding: 12px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 18px;
-	transition: 0.4s;
-	border: 2px solid var(--bg-third);
-	border-radius: 13px;
-}
-
-.active-accordion,
-.accordion:hover {
-	background-color: #ccc;
-	background-color: var(--bg-third);
-	color: var(--txt-second);
-
-}
-
-.accordion-sub {
-	background-color: var(--bg-second);
-	color: var(--txt-first);
-	cursor: pointer;
-	padding: 12px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 18px;
-	transition: 0.4s;
-	border: 1px solid var(--bg-second);
-	border-radius: 13px;
-}
-
-
-.panel {
-	padding: 0 18px;
-	background-color: white;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-} */
-
-
-
-
-/* aside li {
-	list-style-type: none;
-	font-size: 18px;
-	border: none;
-}
-
-aside li a {
-	text-decoration: none;
-	background-color: orange;
-	font-size: 15px;
-} */
 
 .row-container:hover {
 	cursor: pointer;
