@@ -16,7 +16,12 @@
         nav .nav-category {
                 display: block;
         }
-        
+
+        nav li p {
+                display: block;
+        }
+
+           
 
         .carousel-item img {
                 height: 180px;

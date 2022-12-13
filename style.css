@@ -35,6 +35,10 @@ nav .nav-category {
 	display: none;
 }
 
+nav li p {
+	display: none;
+}
+
 .jumbotron {
 	padding-top: 80px;
 	background: url(assets/img/slider1.jpg);
