@@ -20,25 +20,29 @@ body {
 
 }
 
+
 nav .navbar-brand:hover {
 	transform: scale(1.5);
 	transition: 0.5s;
 	font-weight: lighter;
 }
 
-nav .nav-item:hover {
+nav .nav-item a {
+	font-size: 28px;
+	font-weight: 600;
+	color: var(--txt-second);
+}
+
+nav .nav-item a:hover {
 	transform: scale(1.5);
 	transition: 0.5s;
-	font-weight: lighter;
+	/* font-weight: lighter; */
 }
 
-nav .nav-category {
+nav ul li a {
 	display: none;
 }
 
-nav li p {
-	display: none;
-}
 
 .jumbotron {
 	padding-top: 80px;
@@ -250,37 +254,7 @@ aside li li:hover {
 }
 
 
-.row-container:hover {
-	cursor: pointer;
-	transform: scale(1.1);
-	transition: ease-in-out 0.2s;
-	border: 3px solid var(--bg-third);
-	border-radius: 10px;
-}
 
-.col h2 {
-	/* background-color: tomato; */
-	font-size: 50px;
-	margin-top: 20px;
-	/* margin-bottom: 200px; */
-}
-
-.row h2 {
-	/* background-color: tomato; */
-	/* width: 50%; */
-	margin-left: 30%;
-	margin-right: 30%;
-	height: 70%;
-	margin-bottom: 20px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-	text-align: center;
-	border-style: outset;
-	border-width: 7px;
-	border-color: var(--bg-third);
-	box-shadow: 2px 3px;
-
-}
 
 
 /* Large devices (desktops, 992px and up) */

@@ -21,13 +21,13 @@
         </style>
 
         <!-- font awesome -->
-        <link rel="stylesheet" href="'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <!-- <link rel="stylesheet" href="'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
 
         <!-- My CSS -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="576.css">
-        <link rel="stylesheet" href="576-768.css">
-        <link rel="stylesheet" href="768-992.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/576.css">
+        <link rel="stylesheet" href="style/576-768.css">
+        <link rel="stylesheet" href="style/768-992.css">
         <title>Artikel Teknologi</title>
 </head>
 
@@ -35,7 +35,8 @@
 
         <!-- offcanvas navbar -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-black fixed-top">
                 <div class="container">
                         <a class="navbar-brand" href="#">
                                 <h1>Artikel Teknologi</h1>
@@ -46,7 +47,7 @@
                                 <span class="navbar-toggler-icon"></span>
                         </button>
 
-                        <div class="offcanvas offcanvas-end text-bg-dark opacity-100 w-75" tabindex="-1"
+                        <div class="navbar-off offcanvas offcanvas-end text-bg-dark opacity-100 w-75" tabindex="-1"
                                 id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                                 <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Artikel Teknologi</h5>
@@ -55,14 +56,14 @@
                                 </div>
 
                                 <div class="offcanvas-body">
-                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
-                                                <li class="nav-item mt-2 fs-4 me-3">
-                                                        <a class="nav-link fs-4 fw-bold text-white" aria-current="page"
+                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                                <li class="nav-item">
+                                                        <a class="nav-link" aria-current="page"
                                                                 href="#beranda">Beranda</a>
                                                 </li>
 
                                                 <!-- Dropdown Kategori  small-->
-                                                <li class="nav-category dropdown mt-2 fs-5">
+                                                <!-- <li class="nav-category dropdown mt-2 fs-5">
                                                         <a class="nav-link dropdown-toggle text-light" href="#"
                                                                 role="button" data-bs-toggle="dropdown"
                                                                 data-bs-auto-close="inside"
@@ -87,39 +88,65 @@
 
                                                                 <li><a class="dropdown-item" href="#">Network</a></li>
                                                         </ul>
-                                                </li>
+                                                </li> -->
 
                                                 <li>
-                                                        <p>
-                                                                <a class="btn btn-primary" data-bs-toggle="collapse"
-                                                                        href="#collapseMenu" role="button"
-                                                                        aria-expanded="false"
-                                                                        aria-controls="collapseMenu">
-                                                                        Kategori
-                                                                </a>
+                                                        <a class="nav-category" data-bs-toggle="collapse"
+                                                                href="#collapseMenu" aria-expanded="false"
+                                                                aria-controls="collapseMenu">
+                                                                Kategori
+                                                        </a>
 
-                                                        </p>
                                                         <div class="collapse" id="collapseMenu">
                                                                 <div class="card card-body">
                                                                         <ul>
                                                                                 <li>
-                                                                                        <p>
-                                                                                                <a class="btn btn-primary"
-                                                                                                        data-bs-toggle="collapse"
-                                                                                                        href="#collapseMenuSub"
-                                                                                                        role="button"
-                                                                                                        aria-expanded="false"
-                                                                                                        aria-controls="collapseMenuSub">
-                                                                                                        Software
-                                                                                                </a>
-                                                                                        </p>
-                                                                                        <div class="collapse"
-                                                                                                id="collapseMenuSub">
-                                                                                                <div
-                                                                                                        class="card card-body">
-                                                                                                        Some placeholder
-                                                                                                        content
+                                                                                        <a class="nav-category"
+                                                                                                data-bs-toggle="collapse"
+                                                                                                href="#collapseSoftware"
+                                                                                                aria-expanded="false"
+                                                                                                aria-controls="collapseSoftware">
+                                                                                                Software
+                                                                                        </a>
 
+                                                                                        <div class="collapse"
+                                                                                                id="collapseSoftware">
+                                                                                                <div
+                                                                                                        class="menu-article">
+                                                                                                        Windows
+                                                                                                        10
+                                                                                                </div>
+                                                                                                <div
+                                                                                                        class="menu-article">
+                                                                                                        Windows
+                                                                                                        10
+                                                                                                </div>
+                                                                                </li>
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+
+                                                        <div class="collapse" id="collapseMenu">
+                                                                <div class="card card-body">
+                                                                        <ul>
+                                                                                <li>
+                                                                                        <a class="nav-category"
+                                                                                                data-bs-toggle="collapse"
+                                                                                                href="#collapseHardware"
+                                                                                                aria-expanded="false"
+                                                                                                aria-controls="collapseHardware">
+                                                                                                Hardware
+                                                                                        </a>
+
+                                                                                        <div class="collapse"
+                                                                                                id="collapseHardware">
+                                                                                                <div
+                                                                                                        class="menu-article">
+                                                                                                        Mainboard
+                                                                                                </div>
+                                                                                                <div
+                                                                                                        class="menu-article">
+                                                                                                        Processor
                                                                                                 </div>
                                                                                 </li>
                                                                         </ul>
@@ -140,6 +167,8 @@
                         </div>
                 </div>
         </nav>
+
+
         <!-- end offcanvas navbar-->
 
         <!-- Start Jumbotron -->

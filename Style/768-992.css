@@ -1,7 +1,8 @@
-/* Extra Small for potrait phone  */
-@media screen and (max-width: 576px) {
-
-
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.navigation .navbar-expand-lg {
+        display: none;
+}
 
         nav .navbar-brand:hover {
                 transform: none;
@@ -19,18 +20,10 @@
                 display: block;
         }
 
-        nav li p {
-                display: block;
-        }
-
-
 
         .carousel-item img {
-                height: 180px;
-                width: 100%;
-                margin-bottom: 0;
-                border: none;
-                border-radius: 0;
+                height: 200px;
+                width: 35%;
         }
 
         .category-slide {
@@ -39,67 +32,55 @@
                 font-size: 26px;
         }
 
+
         .dive {
                 font-family: 'Open Sans', sans-serif;
                 font-weight: lighter;
                 color: var(--txt-second);
-                font-size: 20px;
+                font-size: 30px;
+
+        }
+
+        .dive:hover {
+                transform: scale(1.1);
+                transition: ease-in-out .5s;
+
         }
 
         .carousel-control-prev {
                 /* background-color: tomato; */
-                margin-left: 0;
+                margin-left: 29%;
                 margin-top: 100px;
                 height: 12%;
-                width: 5%;
+                width: 4%;
         }
 
         .carousel-control-next {
                 /* background-color: aqua; */
-                margin-right: 0;
+                margin-right: 29%;
                 margin-top: 100px;
                 height: 12%;
-                width: 5%;
+                width: 4%;
         }
 
-        .col h2 {
-                /* background-color: tomato; */
-                font-size: 20px;
+        .row-container:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: ease-in-out 0.5s;
+                border: 3px solid var(--bg-third);
+                border-radius: 10px;
         }
 
-        .row h2 {
-                /* background-color: tomato; */
-                margin: 0 auto;
-                height: 70%;
-                margin-top: 7px;
-                margin-bottom: 15px;
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 600;
-                text-align: center;
-                border-style: outset;
-                border-width: 4px;
-                border-color: var(--bg-fourth);
-                box-shadow: 0.5px 1px;
+        .row {
+                /* justify-content: center; */
+                margin-right: 50px;
+                margin-left: 50px;
         }
 
-        article {
-                border: none;
-                margin-left: -9px;
-                margin-top: 3px;
-                width: 105%;
-                /* background-color: tomato; */
-        }
 
-        /* article .row {
-        
-        } */
 
         article .column {
-                width: 48%;
-                /* background-color: orange; */
-                margin: 3px;
-
-
+                width: 33.25%;
         }
 
         .product-card {
@@ -131,11 +112,6 @@
         }
 
 
-        /* .product-details {
-                padding: 10px;
-                text-align: left;
-        } */
-
         .product-details h5 a {
                 font-weight: 500;
                 display: block;
@@ -158,7 +134,35 @@
                 color: var(--bg-fifth);
         }
 
-        aside {
-                display: none;
+        aside .card {
+                width: 27.1%;
+                float: right;
+                border: 3px solid var(--bg-second);
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+                border-style: outset;
+                margin: 5px;
+                font-size: 20px;
+        }
+
+        aside .card-body {
+                width: 100%;
+                margin-top: 0;
+        }
+
+
+        aside ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+        }
+
+        aside li li {
+                font-size: 16px;
+                margin: 7px;
+                padding-left: 5px;
+                /* border: 1px solid; */
+                opacity: 0.9;
+                /* border-radius: 12px; */
+                /* background-color: tomato; */
         }
 }
