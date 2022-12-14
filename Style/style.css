@@ -46,7 +46,8 @@ nav ul li a {
 
 .jumbotron {
 	padding-top: 80px;
-	background: url(assets/img/slider1.jpg);
+	background-image: url('assets/img/jumbotron.jpg');
+	/* background-color: tomato; */
 	background-size: cover;
 	border: 1px solid var(--bg-second);
 	border-radius: 5px;
@@ -54,6 +55,7 @@ nav ul li a {
 	color: var(--txt-first);
 	text-align: center;
 	width: 100%;
+
 }
 
 .jumbotron .display-4 {
