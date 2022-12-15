@@ -67,25 +67,37 @@
                 color: var(--txt-first);
         }
 
-
-
-        .carousel-item img {
-                height: 250px;
-                width: 80%;
-                margin-bottom: 0;
+        .jumbotron {
+                width: 100%;
         }
 
+
+
+        header .card {
+                display: none;
+        }
+
+        header .row {
+                width: 104%;
+
+        }
+
+        .carousel-item img {
+                height: 150px;
+                width: 50%;
+                margin-bottom: 2px;
+        }
 
         .category-slide {
                 color: var(--bg-second);
                 /* background-color: tomato; */
-                font-size: 26px;
+                font-size: 16px;
         }
 
         .dive {
                 font-family: 'Open Sans', sans-serif;
                 font-weight: lighter;
-                color: var(--txt-second);
+                color: var(--txt-first);
                 font-size: 26px;
 
         }
@@ -176,7 +188,5 @@
                 color: var(--bg-fifth);
         }
 
-        aside {
-                display: none;
-        }
+
 }

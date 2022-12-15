@@ -47,7 +47,7 @@
                 background-color: var(--bg-second);
                 margin-top: 5px;
                 margin-left: 25px;
-                width: 110%;
+                width: 100%;
         }
 
 
@@ -67,7 +67,9 @@
                 color: var(--txt-first);
         }
 
-
+        header .row {
+                width: 100vw;
+        }
 
         .carousel-item img {
                 height: 180px;
@@ -80,20 +82,20 @@
         .category-slide {
                 color: var(--bg-second);
                 /* background-color: tomato; */
-                font-size: 26px;
+                font-size: 16px;
         }
 
         .dive {
                 font-family: 'Open Sans', sans-serif;
                 font-weight: lighter;
-                color: var(--txt-second);
+                color: var(--txt-first);
                 font-size: 20px;
         }
 
         .carousel-control-prev {
                 /* background-color: tomato; */
                 margin-left: 0;
-                margin-top: 100px;
+                margin-top: 80px;
                 height: 12%;
                 width: 5%;
         }
@@ -106,72 +108,73 @@
                 width: 5%;
         }
 
-        article {
-                border: none;
-                margin-left: -9px;
-                margin-top: 3px;
-                width: 105%;
-                /* background-color: tomato; */
-        }
-
-        article .column {
-                width: 48%;
-                /* background-color: orange; */
-                margin: 3px;
-        }
-
-        .product-card {
-                margin: 0 auto;
-                margin-left: -6px;
-                width: 108%;
-                position: relative;
-                box-shadow: 0 2px 7px #dfdfdf;
-                background: #fafafa;
-
-        }
-
-        .badge {
-                position: absolute;
-                top: 3px;
-                text-transform: uppercase;
-                font-size: 8px;
-                font-weight: 400;
-                background: red;
-                color: #fff;
-                padding: 2px 8px;
-        }
-
-        .product-tumb {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background: #f0f0f0;
-        }
-
-
-        .product-details h5 a {
-                font-weight: 500;
-                display: block;
-                margin-bottom: 18px;
-                text-transform: uppercase;
-                color: var(--txt-first);
-                text-decoration: none;
-                transition: 0.3s;
-                font-size: 12px;
-        }
-
-        .product-details h5 a:hover {
-                color: var(--bg-fifth);
-        }
-
-        .product-details p {
-                font-size: 10px;
-                line-height: 12px;
-                margin-bottom: 12px;
-                color: var(--bg-fifth);
-        }
-
-        aside {
+        /* category menu */
+        header .card {
                 display: none;
         }
+}
+
+article {
+        border: none;
+        margin-left: -9px;
+        margin-top: 3px;
+        width: 105%;
+        /* background-color: tomato; */
+}
+
+article .column {
+        width: 48%;
+        /* background-color: orange; */
+        margin: 3px;
+}
+
+.product-card {
+        margin: 0 auto;
+        margin-left: -6px;
+        width: 108%;
+        position: relative;
+        box-shadow: 0 2px 7px #dfdfdf;
+        background: #fafafa;
+
+}
+
+.badge {
+        position: absolute;
+        top: 3px;
+        text-transform: uppercase;
+        font-size: 8px;
+        font-weight: 400;
+        background: red;
+        color: #fff;
+        padding: 2px 8px;
+}
+
+.product-tumb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f0f0f0;
+}
+
+
+.product-details h5 a {
+        font-weight: 500;
+        display: block;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+        color: var(--txt-first);
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 12px;
+}
+
+.product-details h5 a:hover {
+        color: var(--bg-fifth);
+}
+
+.product-details p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 12px;
+        color: var(--bg-fifth);
 }
