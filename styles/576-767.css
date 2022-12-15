@@ -98,8 +98,13 @@
                 font-family: 'Open Sans', sans-serif;
                 font-weight: lighter;
                 color: var(--txt-first);
-                font-size: 26px;
+                font-size: 24px;
+        }
 
+        /* MAIN */
+        #carousel .row {
+                width: 100%;
+                margin-left: 200px;
         }
 
         .carousel-control-prev {
