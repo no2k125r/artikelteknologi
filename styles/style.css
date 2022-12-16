@@ -35,6 +35,11 @@ nav .nav-item a {
 	color: var(--txt-second);
 }
 
+nav ul {
+	display: block;
+	/* background-color: tomato; */
+}
+
 nav .nav-item a:hover {
 	transform: scale(1.1);
 	transition: 0.3s;
@@ -161,12 +166,15 @@ main .container {
 	padding: 3px 10px;
 }
 
-#project .product-tumb {
-	height: 70%;
-}
+
 
 
 /* ARTICLE */
+
+#project .product-tumb {
+	height: 65%;
+	margin-bottom: -18px;
+}
 
 article .product-card {
 	box-shadow: 10px 2px 7px #dfdfdf;
@@ -179,9 +187,14 @@ article .product-card {
 	max-height: 100%;
 }
 
+#project hr {
+	margin-bottom: 0;
+}
+
 .product-details {
 	padding: 10px;
 	text-align: left;
+	/* background-color: tomato; */
 }
 
 #project a {
@@ -194,13 +207,15 @@ article .product-card {
 .product-details {
 	color: var(--txt-first);
 	font-size: 16px;
+	/* background-color: tomato; */
+	margin-bottom: 15px;
 }
 
 /* ASIDE */
 aside .container {
 	float: right;
 	margin-right: 14.55%;
-	margin-top: -81.86%;
+	margin-top: -84.26%;
 	width: 22.15%;
 }
 
