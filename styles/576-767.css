@@ -66,19 +66,7 @@
                 color: var(--txt-first);
         }
 
-        .carousel-item img {
-                height: 150px;
-                margin-bottom: 0;
-                border: none;
-                border-radius: 0;
-                display: flex;
-        }
 
-        .img-slide {
-                color: var(--bg-second);
-                font-size: 10px;
-                /* background-color: tomato; */
-        } 
 
         .dive {
                 padding-top: 60px;
@@ -86,88 +74,88 @@
         }
 
         /* MAIN */
-       #project  article .row {
-                /* background-color: tomato; */
+        .carousel-item img {
+                height: 150px;
                 margin-bottom: 0;
+                border: none;
+                border-radius: 0;
         }
 
-        #carousel .row {
-                /* background-color: blueviolet; */
-                width: 56%;      
-                margin-left: 25%;          
+        .img-slide {
+                color: var(--bg-second);
+                font-size: 10px;
         }
-       
+
+
+        main .row {
+                width: 100%;
+                margin-left: 15%;
+
+        }
+
         .carousel-control-prev {
                 /* background-color: tomato; */
-                margin-left: -20px;
-                margin-top: 60px;
+                margin-left: -14px;
+                margin-top: 50px;
                 height: 15%;
                 width: 10%;
         }
 
         .carousel-control-next {
                 /* background-color: aqua; */
-                margin-right: -20px;
-                margin-top: 60px;
+                margin-right: -14px;
+                margin-top: 50px;
                 height: 15%;
                 width: 10%;
         }
 
-        /* PROJECT */
-
-        #project .row {
-                /* background-color: tomato; */
-                width: 103%;
-                margin-left: -5px;
-        }
-
-        #project .column {
-                width: 50%;
-                margin-top: 5px;
-                margin: 0 auto;
-        }
-
-        #project .column:hover {
-                border: 1px solid var(--bg-fifth);
-        }
-
-        #project .badge {
-                font-size: 8px;
-                margin-top: -2px;
-        }
-
-        #project .product-tumb {
+        main .container .card-content {
                 width: 100%;
-        }
-
-        #project hr {
-                margin-top: 30px;
-        }
-
-        /* ARTICLE */
-
-        article .product-card {
-                box-shadow: 5px 2px 3px #dfdfdf;
-                margin-bottom: 5px;
-                height: fit-content;
+                margin-left: -10px;
+                height: auto;
                 /* background-color: tomato; */
         }
 
-        .product-details {
-                padding: 5px;
-                text-align: left;
+        main .card-content .card {
+                width: 48.80%;
+                height: 132px;
+                display: flex;
+                flex-direction: row;
+        }
+
+        main .product-thumb {
+                height: 120px;
+                width: 150px;
+                margin-right: -5px;
+                margin-left: 5px;
+        }
+
+        main img {
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
         }
 
         .product-details h4 {
-                font-size: 14px;
-                justify-content: start;
+                width: 50px;
+                font-size: 20px;
+                margin-top: -10px;
         }
 
-        .product-details {
-                color: var(--txt-first);
-                margin-left: -5px;
-                font-size: 7px;
+        main p {
+                display: none;
+                font-size: 12px;
+                /* width: 50px; */
+                /* display: flex; */
         }
+
+        main .product-details {
+                font-size: 14px;
+                margin-right: 0;
+                margin-left: 10px;
+        }
+
+
 
         /* ASIDE */
         aside {

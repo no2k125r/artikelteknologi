@@ -83,15 +83,8 @@
         }
 
         /* MAIN */
-
-        main .container {
+        main .container .row {
                 width: 100%;
-                /* background-color: blueviolet; */
-        }
-
-        #carousel .row {
-                /* background-color: blueviolet; */
-                width: 106%;
         }
 
         .carousel-control-prev {
@@ -110,64 +103,48 @@
                 width: 10%;
         }
 
-        /* PROJECT */
-
-        #project .row {
-                /* background-color: tomato; */
-                width: 103%;
-                margin-left: -5px;
-        }
-
-        #project .column {
-                width: 50%;
-                margin-top: 5px;
-                margin: 0 auto;
-        }
-
-        #project .column:hover {
-                border: 1px solid var(--bg-fifth);
-        }
-
-        #project .badge {
-                font-size: 8px;
-                margin-top: -2px;
-        }
-
-        #project .product-tumb {
+        main .container .card-content {
                 width: 100%;
-                margin-bottom: -80px;
+                margin-left: -10px;
+                height: auto;
         }
 
-        #project hr {
-                margin-bottom: 20px;
+        main .card-content .card {
+                width: 48.80%;
+                height: 132px;
+                display: flex;
+                flex-direction: row;
         }
 
-        /* ARTICLE */
-
-        article .product-card {
-                box-shadow: 3px 2px 3px #dfdfdf;
-                margin-bottom: 5px;
-                height: 250px;
-                /* background-color: tomato; */
+        main .product-thumb {
+                height: 120px;
+                width: 110px;
+                margin-right: -5px;
         }
 
-        .product-details {
-                padding: 5px;
-                text-align: left;
-                /* background-color: tomato; */
+        main img {
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
         }
 
         .product-details h4 {
+                width: 50px;
+                font-size: 20px;
+        }
+
+        main p {
+                display: none;
+                font-size: 12px;
+                width: 50%;
+        }
+
+        main .product-details {
                 font-size: 14px;
-                justify-content: start;
+                margin-right: 0;
         }
 
-        .product-details {
-                color: var(--txt-first);
-                margin-left: -5px;
-                font-size: 7px;
 
-        }
 
         /* ASIDE */
         aside {

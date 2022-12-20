@@ -16,24 +16,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&display=swap"
                 rel="stylesheet">
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" charset="utf-8"></script>
-
         <style>
                 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
         </style>
-
 
         <!-- font awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
 
         <!-- My CSS -->
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="/styles/sub-main.css">
         <link rel="stylesheet" href="styles/575.css">
         <link rel="stylesheet" href="styles/576-767.css">
         <link rel="stylesheet" href="styles/768-992.css">
-        <title>Artikel Teknologi</title>
+        <title>Software</title>
 </head>
 
 <body id="beranda">
@@ -41,8 +37,8 @@
         <!-- offcanvas navbar -->
         <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
                 <div class="container">
-                        <a class="navbar-brand" href="#">
-                                <h1>Artikel Teknologi</h1>
+                        <a class="navbar-brand" href="/index.html">
+                                <h1>SOFTWARE</h1>
                         </a>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -62,7 +58,7 @@
                                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                                 <li class="nav-item">
                                                         <a class="nav-link" aria-current="page"
-                                                                href="/pages/software.html">Beranda</a>
+                                                                href="#beranda">Beranda</a>
                                                 </li>
 
                                                 <!-- Dropdown Kategori Mobile New-->
@@ -170,128 +166,23 @@
                 </section>
         </header>
 
+
         <main>
-                <section>
-                        <div class="container">
-                                <!-- Start Carousel -->
-                                <div class="row">
-                                        <div class="column">
-                                                <div id="carouselIntro" class="carousel slide text-center"
-                                                        data-bs-ride="carousel">
-                                                        <div class="carousel-indicators ">
-                                                                <button type="button" data-bs-target="#carouselIntro"
-                                                                        data-bs-slide-to="0" class="active"
-                                                                        aria-current="true"
-                                                                        aria-label="Slide 1"></button>
-                                                                <button type="button" data-bs-target="#carouselIntro"
-                                                                        data-bs-slide-to="1"
-                                                                        aria-label="Slide 2"></button>
-                                                                <button type="button" data-bs-target="#carouselIntro"
-                                                                        data-bs-slide-to="2"
-                                                                        aria-label="Slide 3"></button>
-                                                                <button type="button" data-bs-target="#carouselIntro"
-                                                                        data-bs-slide-to="3"
-                                                                        aria-label="Slide 3"></button>
-                                                        </div>
-
-                                                        <div class="carousel-inner">
-                                                                <div class="carousel-item active"
-                                                                        data-bs-interval="2000">
-                                                                        <img src="assets/img/software.jpg"
-                                                                                alt="software">
-                                                                        <div class="carousel-caption">
-                                                                                <a href="#project" class="img-slide">
-                                                                                        Software
-                                                                                </a>
-                                                                        </div>
-                                                                </div>
-
-
-                                                                <div class="carousel-item" data-bs-interval="2000">
-                                                                        <img src="assets/img/hardware.jpg"
-                                                                                alt="hardware">
-                                                                        <div class="carousel-caption ">
-                                                                                <a href="#project" class="img-slide">
-                                                                                        Hardware
-                                                                                </a>
-                                                                        </div>
-                                                                </div>
-
-                                                                <div class="carousel-item" data-bs-interval="2000">
-                                                                        <img src="assets/img/network.jpg"
-                                                                                alt="hardware">
-                                                                        <div class="carousel-caption ">
-                                                                                <a href="#project" class="img-slide">
-                                                                                        Network
-                                                                                </a>
-                                                                        </div>
-                                                                </div>
-
-                                                                <div class="carousel-item" data-bs-interval="2000">
-                                                                        <img src="assets/img/jumbotron.jpg"
-                                                                                alt="software">
-                                                                        <div class="carousel-caption ">
-                                                                                <a href="#project" class="img-slide">
-                                                                                        Software
-                                                                                </a>
-                                                                        </div>
-                                                                </div>
-
-                                                        </div>
-
-
-                                                        <button class="carousel-control-prev carousel-dark"
-                                                                type="button" data-bs-target="#carouselIntro"
-                                                                data-bs-slide="prev">
-                                                                <span class="carousel-control-prev-icon"
-                                                                        aria-hidden="true"></span>
-                                                                <span class="visually-hidden">Previous</span>
-                                                        </button>
-                                                        <button class="carousel-control-next carousel-dark"
-                                                                type="button" data-bs-target="#carouselIntro"
-                                                                data-bs-slide="next">
-                                                                <span class="carousel-control-next-icon"
-                                                                        aria-hidden="true"></span>
-                                                                <span class="visually-hidden">Next</span>
-                                                        </button>
-                                                </div>
-                                        </div>
-                                </div>
-                                <!-- End Carousel -->
-
-                        </div>
-                </section>
-
-
-
-                <section>
+                <section id="project">
                         <!-- START CARD -->
-                        <div class="container">
-                                <div class="wrapper card-content" id="card-lists">
-                                        <div class=" card">
-                                                <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/001.jpg" alt="">
-                                                        </div>
-                                                        <div class="product-details">
-                                                                <h4 class="card-title"> card 001
-                                                                </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
-                                                        </div>
-                                                </a>
-                                        </div>
-
+                        <div class="container page-software">
+                                <div class="wrapper" id="card-lists">
                                         <div class="card">
                                                 <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/002.jpg" alt="">
+                                                        <div class="badge">Software</div>
+                                                        <div class="product-tumb">
+                                                                <img src="/assets/img/network.jpg" alt="">
                                                         </div>
                                                         <div class="product-details">
-                                                                <h4 class="card-title">card 002
+                                                                <h4 class="card-title"> nono software
                                                                 </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
+                                                                Contoh penggunaan komputer dalam
+                                                                sehari
 
                                                         </div>
                                                 </a>
@@ -299,28 +190,16 @@
 
                                         <div class="card">
                                                 <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/003.jpg" alt="">
+                                                        <div class="badge">Software</div>
+                                                        <div class="product-tumb">
+                                                                <img src="/assets/img/software.jpg" alt="">
                                                         </div>
                                                         <div class="product-details">
-                                                                <h4 class="card-title"> card 003
+                                                                <h4 class="card-title"> lya
                                                                 </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
-                                                        </div>
-                                                </a>
-                                        </div>
-
-                                        <div class="card">
-                                                <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/004.jpg" alt="">
-                                                        </div>
-                                                        <div class="product-details">
-                                                                <h4 class="card-title">card 004
-                                                                </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
+                                                                Contoh penggunaan komputer dalam
+                                                                sehari
+                                                                hari
 
                                                         </div>
                                                 </a>
@@ -328,14 +207,16 @@
 
                                         <div class="card">
                                                 <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/005.jpg" alt="">
+                                                        <div class="badge">Software</div>
+                                                        <div class="product-tumb">
+                                                                <img src="/assets/img/software.jpg" alt="">
                                                         </div>
                                                         <div class="product-details">
-                                                                <h4 class="card-title"> card 005
+                                                                <h4 class="card-title"> aqna
                                                                 </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
+                                                                Contoh penggunaan komputer dalam
+                                                                sehari
+                                                                hari
 
                                                         </div>
                                                 </a>
@@ -343,14 +224,16 @@
 
                                         <div class="card">
                                                 <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/006.jpg" alt="">
+                                                        <div class="badge">Software</div>
+                                                        <div class="product-tumb">
+                                                                <img src="/assets/img/software.jpg" alt="">
                                                         </div>
                                                         <div class="product-details">
-                                                                <h4 class="card-title">card 006
+                                                                <h4 class="card-title">rafka
                                                                 </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
+                                                                Contoh penggunaan komputer dalam
+                                                                sehari
+                                                                hari
 
                                                         </div>
                                                 </a>
@@ -358,71 +241,41 @@
 
                                         <div class="card">
                                                 <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/007.jpg" alt="">
+                                                        <div class="badge">Software</div>
+                                                        <div class="product-tumb">
+                                                                <img src="/assets/img/software.jpg" alt="">
                                                         </div>
                                                         <div class="product-details">
-                                                                <h4 class="card-title"> card 007
+                                                                <h4 class="card-title"> Women leather bag
                                                                 </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
-
-                                                        </div>
-                                                </a>
-                                        </div>
-
-                                        <div class="card">
-                                                <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/008.jpg" alt="">
-                                                        </div>
-                                                        <div class="product-details">
-                                                                <h4 class="card-title"> card 008
-                                                                </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
-
-                                                        </div>
-                                                </a>
-                                        </div>
-
-                                        <div class="card">
-                                                <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/009.jpg" alt="">
-                                                        </div>
-                                                        <div class="product-details">
-                                                                <h4 class="card-title"> card 009
-                                                                </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
-                                                        </div>
-                                                </a>
-                                        </div>
-
-                                        <div class="card">
-                                                <a href="#beranda">
-                                                        <div class="product-thumb">
-                                                                <img src="assets/card/010.jpg" alt="">
-                                                        </div>
-                                                        <div class="product-details">
-                                                                <h4 class="card-title">card 010
-                                                                </h4>
-                                                                <p>Contoh penggunaan komputer dalam
-                                                                        sehari</p>
+                                                                Contoh penggunaan komputer dalam
+                                                                sehari
 
                                                         </div>
                                                 </a>
                                         </div>
 
                                 </div>
+                        </div>
+                        <!-- END CARD -->
 
+                </section>
+
+                <section>
+
+                        <div class="container">
+                                <nav aria-label="Page navigation">
+                                        <ul class="pagination">
+                                                <li class="page-item"><a class="page-link" href="/index.html">Previous</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link"
+                                                                href="/pages/software.html">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                        </ul>
+                                </nav>
                         </div>
                 </section>
-                <!-- END-CARD -->
-
-
-
 
                 <!-- Footer -->
                 <footer class="bg-dark bg-gradient text-light p-3 text-center">
@@ -710,12 +563,13 @@
                 </section>
         </aside>
 
+
+
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
                 crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
         <script src="js/script.js"></script>
-        <!-- <script src="js/pagination.js"></script> -->
 </body>
 
 </html>
