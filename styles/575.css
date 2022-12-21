@@ -131,7 +131,6 @@
 
         .product-details h4 {
                 font-size: 20px;
-                background-color: tomato;
                 margin-left: -22px;
         }
 
@@ -154,9 +153,6 @@
         footer p {
                 font-size: 12px;
         }
-
-
-
 
         /* ASIDE */
         aside {
