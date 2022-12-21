@@ -67,7 +67,6 @@
         }
 
 
-
         .dive {
                 padding-top: 60px;
                 font-size: 20px;
@@ -90,7 +89,6 @@
         main .row {
                 width: 100%;
                 margin-left: 15%;
-
         }
 
         .carousel-control-prev {
@@ -111,23 +109,19 @@
 
         main .container .card-content {
                 width: 100%;
-                margin-left: -10px;
                 height: auto;
-                /* background-color: tomato; */
+                margin: 0 auto;
         }
 
         main .card-content .card {
-                width: 48.80%;
-                height: 132px;
-                display: flex;
-                flex-direction: row;
+                width: 32.0%;
+                height: 250px;
+                margin-left: 3px;
         }
 
         main .product-thumb {
-                height: 120px;
-                width: 150px;
-                margin-right: -5px;
-                margin-left: 5px;
+                height: 150px;
+                width: 100%;
         }
 
         main img {
@@ -145,16 +139,23 @@
         main p {
                 display: none;
                 font-size: 12px;
-                /* width: 50px; */
-                /* display: flex; */
         }
 
         main .product-details {
-                font-size: 14px;
-                margin-right: 0;
+                font-size: 12px;
                 margin-left: 10px;
+                padding-right: 0;
         }
 
+        .product-details h4 {
+                margin: 0 auto;
+                margin-left: -10px;
+                width: auto;
+        }
+
+        footer {
+                font-size: 14px;
+        }
 
 
         /* ASIDE */

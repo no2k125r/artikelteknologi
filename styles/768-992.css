@@ -1,5 +1,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
         nav ul li {
                 /* background-color: tomato; */
                 margin-bottom: 10px;
@@ -15,8 +16,8 @@
         }
 
         nav ul li {
-                display: none;
-                background-color: tomato;
+                display: block;
+                /* background-color: tomato; */
         }
 
         nav .navbar-brand:hover {
@@ -32,7 +33,19 @@
         }
 
         nav .nav-category {
-                display: block;
+                display: none;
+        }
+
+        form .form-control {
+                display: none;
+        }
+
+        form .tombol {
+                display: none;
+        }
+
+        form input {
+                display: none;
         }
 
         .carousel-item img {
@@ -46,109 +59,106 @@
                 font-size: 22px;
         }
 
+
         .dive {
                 font-family: 'Open Sans', sans-serif;
                 font-weight: lighter;
-                padding-top: 60px;
+                padding-top: 70px;
                 font-size: 25px;
-        }
-
-        .dive:hover {
-                transform: scale(1.1);
-                transition: ease-in-out .5s;
+                /* margin-left: 0; */
         }
 
         /* MAIN */
-        #project article .row {
-                /* background-color: tomato; */
-                margin-bottom: 0;
+        .carousel-item img {
+                height: 200px;
+                margin-bottom: 5px;
+                border: 1px solid var(--bg-second);
+                border-radius: 7px;
         }
 
-        #carousel .row {
-                /* background-color: blueviolet; */
-                width: 50%;
-                margin-left: 10%;
-
+        .img-slide {
+                color: var(--bg-second);
+                font-size: 10px;
         }
 
         .carousel-control-prev {
                 /* background-color: tomato; */
-                margin-left: -10%;
-                margin-top: 70px;
-                height: 25%;
+                margin-left: -34px;
+                margin-top: 80px;
+                height: 15%;
                 width: 10%;
         }
 
         .carousel-control-next {
                 /* background-color: aqua; */
-                margin-right: -10%;
-                margin-top: 70px;
-                height: 25%;
+                margin-right: -34px;
+                margin-top: 80px;
+                height: 15%;
                 width: 10%;
         }
 
-        /* PROJECT */
-        #project .row {
-                /* background-color: tomato; */
+        main .container .card-content {
                 width: 70%;
-                margin-left: -5px;
+                height: 1080px;
         }
 
-        #project .column {
-                width: 50%;
-                margin-top: 5px;
+        main .card-content .card {
+                width: 32.0%;
+                height: 250px;
                 margin: 0 auto;
+                margin-top: 5px;
+                margin-bottom: 5px;
         }
 
-        #project .badge {
-                font-size: 12px;
-                margin-top: -2px;
-        }
-
-        #project .product-tumb {
+        main .product-thumb {
+                height: 150px;
                 width: 100%;
         }
 
-        #project hr {
-                margin-top: -30px;
-        }
-
-        /* ARTICLE */
-
-        article .product-card {
-                box-shadow: 4px 2px 3px #dfdfdf;
-                margin-bottom: 5px;
-                height: 250px;
-                /* background-color: tomato; */
-        }
-
-        .product-details {
-                padding: 5px;
-                text-align: left;
+        main img {
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
         }
 
         .product-details h4 {
+                width: 50px;
                 font-size: 20px;
-                justify-content: start;
+                margin-top: -10px;
         }
 
-        .product-details {
-                color: var(--txt-first);
-                margin-left: -5px;
-                font-size: 10px;
+        main p {
+                display: none;
+                font-size: 12px;
+        }
+
+        main .product-details {
+                font-size: 12px;
+                margin-left: 10px;
+                padding-right: 0;
+        }
+
+        .product-details h4 {
+                margin: 0 auto;
+                margin-left: -10px;
+                width: auto;
+        }
+
+        footer p {
+                margin-bottom: 0;
+                font-size: 15px;
         }
 
         /* ASIDE */
         aside .container {
                 float: right;
                 margin-right: 1.50%;
-                margin-top: -137.56%;
-                width: 32.15%;
+                margin-top: -174.86%;
+                width: 31.15%;
         }
 
         aside .card-header {
                 font-size: 22px;
-                /* margin-bottom: 200px; */
         }
 
         aside .accordion-item {
