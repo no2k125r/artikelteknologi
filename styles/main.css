@@ -31,8 +31,8 @@ nav .nav-item a {
 	color: var(--txt-second);
 }
 
-nav ul {
-	display: block;
+nav ul li .nav-category {
+	display: none;
 	/* background-color: tomato; */
 }
 
@@ -40,10 +40,6 @@ nav .nav-item a:hover {
 	transform: scale(1.1);
 	transition: 0.3s;
 	/* font-weight: lighter; */
-}
-
-nav .nav-mobile {
-	display: none;
 }
 
 form {
@@ -161,6 +157,7 @@ main .container .row {
 	height: 1700px;
 	border-radius: 10px;
 	border: 3px solid var(--bg-second);
+
 }
 
 .wrapper {
@@ -212,9 +209,11 @@ main .container .row {
 /* ASIDE */
 aside .container {
 	float: right;
-	margin-right: 14.55%;
-	margin-top: -116.50%;
+	margin-right: 15.05%;
+	margin-top: -117.50%;
 	width: 22.15%;
+	margin-left: 63.40%;
+	position: fixed;
 }
 
 aside ul {

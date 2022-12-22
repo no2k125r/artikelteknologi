@@ -1,5 +1,5 @@
 /* Extra Small for potrait phone  */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
         .navbar h1 {
                 font-size: 24px;
         }
@@ -24,6 +24,11 @@
                 transition: none;
                 color: var(--bg-fourth);
                 /* font-weight: lighter; */
+        }
+
+        nav ul li .nav-category {
+                display: block;
+                /* background-color: tomato; */
         }
 
         nav .nav-category {
@@ -86,6 +91,11 @@
         main .container .row {
                 width: 100%;
                 margin: 0 auto;
+        }
+
+        .carousel-indicators {
+                width: 30%;
+                margin-left: 35%;
         }
 
         .carousel-control-prev {
